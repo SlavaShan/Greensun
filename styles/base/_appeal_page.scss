@@ -1,0 +1,85 @@
+.appeal {
+    min-width: 1020px;
+    height: 543px;
+    color: #13161b;
+    background-color: #ece9e9;
+    border-top: 1px solid #dad8d8;
+}
+
+.appeal_inner {
+    height: 543px;
+    padding-top: 95px;
+    padding-left: 5px;
+    background: url(../images/appeal_men_bg.png) 100% 0 no-repeat;
+}
+
+.appeal_header {
+    min-width: 1020px;
+    height: 94px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+       -moz-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+            box-shadow: 0 1px 1px rgba(0,0,0,.1);
+
+    @include pie-clearfix;
+}
+
+.appeal_inner h2 {
+    font: 48px 'PT_SansWebBold';
+    line-height: 60px;
+    text-transform: uppercase;
+    span {
+        font: 60px 'PT_SansWebBold';
+        color: #c5d31a;
+    }
+}
+
+.appeal_inner h3 {
+    margin-top: 15px;
+    font: 16px 'PT_SansWebBold';
+    line-height: 30px;
+    color: #2e2e2e;
+    text-transform: uppercase;
+}
+
+.appeal_btn {
+    display: block;
+    width: 203px;
+    height: 50px;
+    margin-top: 70px;
+    font: 16px 'PT_SansWebBold';
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #c5d31a;
+}
+
+.appeal_advantages {
+    min-width: 1020px;
+    height: 838px;
+    background-color: #fff;
+    .a_bot_layer1,
+    .a_bot_layer2,
+    .a_bot_layer3,
+    .a_bot_layer4,
+    .a_bot_layer5,
+    .a_bot_layer6 {
+        -webkit-transition-duration: 0.3s;
+        -o-transition-duration: 0.3s;
+        -moz-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+    }
+}
+
+.appeal_footer {
+    min-width: 1020px;
+    height: 94px;
+    background-color: #fff;
+    border-top: 1px solid #ececec;
+    .footer_center p {
+        margin-left: -48px;
+    }
+    @include pie-clearfix;
+}

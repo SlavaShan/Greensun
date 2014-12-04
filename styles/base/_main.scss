@@ -1,0 +1,17 @@
+* {
+    @include box-sizing(border-box);
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    line-height: 1.42857;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}

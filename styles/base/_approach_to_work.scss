@@ -1,0 +1,255 @@
+.approach_to_work {
+    height: 1090px;
+    min-width: 1200px;
+    background: url(../images/approach_to_work_bg.jpg) top center repeat-x;
+}
+
+.approach_to_work_inner {
+    padding-top: 55px;
+}
+
+.approach_to_work_title {
+    text-align: center;
+    h3 {
+        position: relative;
+        display: inline-block;
+        font: 30px 'PT_SansWebBold';
+        color: #13161b;
+        color: #fff;
+        text-transform: uppercase;
+        span {
+            color: #c5d31a;
+        }
+        &:after {
+            position: absolute;
+            bottom: -20px;
+            left: 36%;
+            width: 92px;
+            height: 4px;
+            content: '';
+            background: url(../images/title_line.jpg);
+        }
+    }
+}
+
+.a_w_info_wrap {
+    margin-top: 80px;
+
+    @include pie-clearfix;
+}
+
+.appr_left_side {
+    float: left;
+    width: 500px;
+    padding-right: 45px;
+    text-align: right;
+}
+
+.appr_left_side span {
+    display: inline-block;
+    margin-bottom: 20px;
+    font: 24px 'PT_SansWebBold';
+    line-height: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.appr_left_side p {
+    position: relative;
+    padding-right: 45px;
+    margin-bottom: 40px;
+    font: 18px 'PT_SansWebRegular';
+    &:before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 28px;
+        height: 28px;
+        content: '';
+        background: url(../images/exclamation_mark_icon.png);
+    }
+}
+
+div.appr_left_side p:nth-child(2) {
+    margin-bottom: 82px;
+}
+
+div.appr_left_side p:nth-child(3) {
+    margin-bottom: 35px;
+}
+
+div.appr_left_side p:nth-child(4) {
+    margin-bottom: 57px;
+}
+
+.appr_right_side {
+    float: right;
+    width: 500px;
+    padding-left: 40px;
+}
+
+.appr_right_side span {
+    display: inline-block;
+    margin-bottom: 20px;
+    font: 24px 'PT_SansWebBold';
+    line-height: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.appr_right_side p {
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 35px;
+    font: 18px 'PT_SansWebRegular';
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 28px;
+        height: 28px;
+        content: '';
+        background: url(../images/checked_mark_icon.png);
+    }
+}
+
+.app_reviews {
+    margin-top: 30px;
+    text-align: center;
+    p {
+        font: 21px 'PT_SansWebBold';
+        line-height: 24px;
+        color: #c5d31a;
+        text-transform: uppercase;
+        span {
+            color: #e14646;
+        }
+    }
+}
+
+.approach_form_debriefing {
+    width: 100%;
+    height: 300px;
+    padding: 25px 40px;
+    margin-top: 60px;
+    border: 4px solid #c5d31a;
+
+    @include pie-clearfix;
+}
+
+.a_form_left_side {
+    float: left;
+    width: 285px;
+}
+
+.a_form_left_side .app_form_title {
+    display: inline-block;
+    margin-bottom: 21px;
+    font: 24px 'PT_SansWebBold';
+}
+
+.approach_form_debriefing .app_form_name,
+.app_form_phone,
+.app_form_email {
+    position: relative;
+    display: block;
+    width: 277px;
+    height: 48px;
+    &:before {
+        position: absolute;
+        top: 18px;
+        left: 15px;
+        width: 5px;
+        height: 4px;
+        content: '';
+        background: url(../images/star_red_icon.png);
+    }
+}
+
+.a_form_left_side input {
+    width: 277px;
+    height: 48px;
+    padding: 0 25px;
+    font: 14px 'PT_SansWebRegular';
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #e6e6e6;
+}
+
+.a_form_left_side input {
+    outline: 0;
+}
+
+.app_form_name,
+.app_form_phone {
+    margin-bottom: 18px;
+}
+
+.a_form_right_side {
+    float: right;
+    width: 610px;
+}
+
+.a_form_right_side textarea {
+    width: 610px !important;
+    height: 114px !important;
+    padding: 10px;
+    margin-top: 52px;
+    background-color: transparent;
+    border: solid 1px #e6e6e6;
+    color: #fff;
+    font: 14px 'PT_SansWebRegular';
+}
+
+.a_form_right_side textarea::-webkit-input-placeholder {
+    color: #fff;
+}
+
+
+.a_form_right_side textarea:focus {
+    outline: 0;
+}
+
+.app_callback_btn {
+    display: inline-block;
+    float: left;
+    width: 276px;
+    height: 48px;
+    margin-top: 13px;
+    font: 16px 'PT_SansWebBold';
+    line-height: 48px;
+    color: #c5d31a;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: solid 2px #c5d31a;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    &:hover {
+        background-color: #c5d31a;
+        color: #fff;
+    }
+}
+
+.app_form_conf {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    padding-left: 20px;
+    margin-top: 12px;
+    margin-left: 20px;
+    font: 12px 'PT_SansWebRegular';
+    color: #fff;
+    &:before {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        width: 12px;
+        height: 14px;
+        content: '';
+        background: url(../images/lock_white_icon.png);
+    }
+}
